@@ -3,8 +3,8 @@ import selector
 from jinja2 import Environment,FileSystemLoader
 
 
-aboutme_ref = """<a href="aboutme/aboutme.html">GO TO aboutme.html</a>"""
-index_ref = """<a href="../index.html">GO TO index.html</a>"""
+aboutme_ref = """<a href="aboutme/aboutme.html">aboutme.html</a>"""
+index_ref = """<a href="../index.html">index.html</a>"""
 
 succes = '200 OK'
 headers = [('Content-Type','text/html; charset=UTF-8')]
